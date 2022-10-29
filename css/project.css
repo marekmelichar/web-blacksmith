@@ -1,0 +1,426 @@
+/* -------------------------------------------------------------------- */
+/* STYLY SECTION 1 */
+/* -------------------------------------------------------------------- */
+
+/* STICKY NAV */
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    opacity: .95;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+    
+    z-index: 9999;
+}
+
+.sticky .main_nav li a:link, .main_nav li a:visited { 
+  color: #FFF;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.logo {
+    float: left;
+    margin-top: 1em;
+}
+
+.logo a {
+    font: 1.6em 'oswald', sans-serif;
+    color: #C66800;
+}
+
+.logo strong {
+    font-weight: bold;
+}
+
+.main_nav {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: 2em;
+    
+    font: 1.2em 'open_sanslight', sans-serif;
+    color: #C66800;
+}
+
+.main_nav li {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.main_nav li a:link,
+.main_nav li a:visited {
+    padding: .5em 0;
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.main_nav li a:hover,
+.main_nav li a:active {
+    border-bottom: 2px solid #C66800;
+}
+
+.hero_text {
+    font: 1.3em 'open_sanslight', sans-serif;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    
+    position: absolute;
+    max-width: 1150px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* trik na vycentrování absolutně pozicovaného textu */
+}
+
+.btn:link,
+.btn:visited {
+    font: 1em 'open_sanslight', sans-serif;
+    display: inline-block;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    border-radius: 12em;
+    transition: background-color 0.25s, border 0.25s, color 0.1s;
+}
+
+.btn_full:link,
+.btn_full:visited {
+    background-color: #C66800;
+    text-shadow: none;
+    border: 1px solid #C66800;
+    color: #FFF;
+    margin-right: 2em;
+}
+
+.btn_empty:link,
+.btn_empty:visited {
+    border: 1px solid #C66800;
+    color: #C66800;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #a45600;
+}
+
+.btn_full:hover,
+.btn_full:active {
+    border: 1px solid #a45600;
+}
+
+.btn_empty:hover,
+.btn_empty:active {
+    border: 1px solid #a45600;
+    color: #FFF;
+}
+
+/* -------------------------------------------------------------------- */
+/* STYLY SECTION 2 ( about ) */
+/* -------------------------------------------------------------------- */
+
+
+.about {
+    background-color: #f2f1f0;
+}
+
+.about_title {
+    max-width: 920px;
+    width: 100%;
+    padding: 0 2em;
+    margin: 3.5em auto 0 auto; /* 35px / 16px = 2,1875em */
+    font-family: 'open_sanslight', sans-serif;
+    font-size: 32px;
+    color: #c66800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.svicen {
+    background: url(../images/Svicen_chobotnice3.png) no-repeat;
+    background-size: cover;
+    
+    max-width: 204px;
+    /*width: 100%;*/
+    height: 505px;
+    
+    /*margin-left: 7em;*/
+    margin-top: 130px;
+}
+
+.gril {
+    background: url(../images/gril3.png) no-repeat;
+    background-size: contain;
+    max-width: 366px;
+    /* width: 100%; */
+    height: 213px;
+    margin-top: 6em;
+}
+
+.about_text {
+    margin-top: 2.5em;
+    font-family: 'open_sanslight', sans-serif;
+    font-size: 24px;
+    /*max-width: 575px;*/
+    /*width: 100%;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------- */
+/* STYLY SECTION 3 ( gallery ) */
+/* -------------------------------------------------------------------- */
+
+.gallery {
+  /*max-width: 960px;*/
+  /*width: 100%;*/
+  /*float: left;*/
+  font-size: 0;
+}
+
+.gallery a {
+  display: inline-block;
+  width: 33.33%;
+  padding: 0;
+  padding: 5px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  opacity: .9;
+}
+
+.gallery img:hover {
+  opacity: 1;
+}
+
+.section_gallery {
+    background-color: #f2f1f0;
+    padding-top: 5em;
+}
+
+.section_gallery .row {
+    border-top: 1px solid #c66800;
+}
+
+.section_gallery h2 {
+    margin: 1.8em auto;
+}
+
+
+.section_gallery h3 {
+    margin: 1.8em auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------- */
+/* STYLY CONTACT */
+/* -------------------------------------------------------------------- */
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: #FFF;
+}
+
+.contact .heading {
+  width: 100%;
+  padding-bottom: 1em;
+  margin: 0 auto 1.5em auto;
+  font: 2em 'OpenSans-Light', sans-serif;
+  color: #C66800;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #C66800;
+}
+
+.contact-info {
+  margin-top: 20px;
+  width: 50%;
+  float: left;
+}
+
+.form {
+  margin-top: 40px;
+  width: 50%;
+  float: left;
+}
+
+input#contactName{
+  background: none;
+  padding-left: 25px;
+  width:100%;
+  height:50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  float: left;
+}
+
+input#contactEmail{
+  margin: 1em auto;
+  background: none;
+  padding-left: 25px;
+  width:100%;
+  height:50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  float: left;
+}
+
+input#contactText{
+    margin: 1em auto;
+  background: none;
+  padding-left: 25px;
+  width:100%;
+  height:250px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  float: left;
+}
+ 
+
+input#sipkaOdeslat {
+    margin-top: 1em;
+    background : url("../images/send_icon.png") no-repeat center center;
+    color: transparent;
+    width: 110px;
+    height: 110px;
+    float: right;
+    border: none;
+}
+
+textarea:focus, input:focus {
+    outline: 2px solid #c66800;
+}
+
+
+
+
+
+
+
+.clear {
+   cursor: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* back to top */
+
+.back-to-top {
+  color: #c66800;
+  position: fixed;
+  bottom: 5px;
+  right: 30px;
+  z-index: 10;
+  display: block;
+  opacity: .5; 
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE NAV */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 2em;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

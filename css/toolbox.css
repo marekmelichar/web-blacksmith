@@ -1,0 +1,33 @@
+/* -------------------------------------------------------------------- */
+/* GENERAL */
+/* -------------------------------------------------------------------- */
+
+.toplist {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+.hdn {
+	display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top-40px {
+  margin-top: 40px;
+}
+

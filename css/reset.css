@@ -1,0 +1,26 @@
+/* -------------------------------------------------------------------- */
+/* vsechny floatovane elementy budou containovane, a clearovane */
+/* -------------------------------------------------------------------- */
+
+.column:before,
+.group:before,
+.menu:before,
+.column:after,
+.group:after,
+.menu:after {
+	content: " ";
+	display: table;
+}
+
+.column:after,
+.group:after,
+.menu:after {
+	clear: both;
+}
+
+.column,
+.group,
+.menu {
+	*zoom: 1;
+}
+
